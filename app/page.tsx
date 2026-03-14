@@ -6,13 +6,13 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-base">
       {/* Hero Section */}
-      <section className="min-h-screen flex flex-col items-center justify-center px-6">
+      <section className="flex flex-col items-center pt-20 pb-[60px] px-6">
         <Hero />
         <ConnectForm />
       </section>
 
       {/* Feature Cards */}
-      <section className="max-w-5xl mx-auto px-6 pb-24">
+      <section className="max-w-5xl mx-auto px-6 pb-20">
         <FeatureCards />
       </section>
 
